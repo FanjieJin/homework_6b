@@ -1,0 +1,410 @@
+/* Global styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    color: rgb(109, 110, 164);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(109, 110, 164);
+}
+
+p1 {
+    font-size: 15px;
+    color: rgb(109, 110, 164);
+}
+
+.container {
+    top: 100px;
+    position:relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* styles for navigation bar start here*/
+
+.logo{
+    padding-left: 25px;
+    padding-top: 10px;
+    width: 200px;
+    cursor: pointer;
+}
+
+header {
+    background-color: white;
+    color: black;
+    top:-1px;
+    height:120px;
+    position: fixed;
+    background:#FFFFFF;
+    width: 100%;
+    z-index: 12;
+}
+
+header a {
+    color: black;
+}
+
+.navbar ul li{
+    display: flex;
+    list-style: none;
+    float: left;   
+    padding: 0px 50px 0px 0px;
+    font-size: 20px;
+}
+
+header #logo {
+    float: left;
+    margin: 0;
+}
+
+header nav {
+    float: left;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+header nav2 {
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+    float: right;
+    padding-right: 80px;
+    padding-top: 50px;
+}
+
+
+header a:hover {
+    color: rgb(109, 110, 164);
+}
+
+#numCart {
+    color: white;
+    position: relative;
+
+    background-color: rgb(109, 110, 164);
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top:6px;
+    padding-bottom:6px;
+}
+
+#cart{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top:6px;
+    padding-bottom:6px;
+    color: white;
+    background-color: rgb(109, 110, 164);
+    position: relative;
+}
+
+/* home*/
+
+.banner{
+    width: 100%;
+    height:850px;
+    position: relative;
+    top: 90px;
+    background: url(../img/b1.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner h2{
+    padding-top: 7%;
+    font-size: 20px;
+    margin-bottom:100px;
+    font-weight: 100;
+    position:absolute;
+    top: 39%;
+    left: 55%;
+    margin-right: 60px;
+}
+
+.banner .button{
+    display: inline-block;
+    position:absolute;
+    top: 62%;
+    left: 55%;
+    background: linear-gradient(#87adfd, #ff77cd);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+}
+
+.button {
+    color: white;
+    background: linear-gradient(#87adfd, #ff77cd);
+    border: 2px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 24px;
+}
+
+.button2 {
+	color: white;
+    background: rgb(109, 110, 164);
+    border: 2px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 24px;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.page-title {
+    top: 50px;
+    position:relative;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    color: rgb(109, 110, 164);
+
+}
+
+/* Local styles */
+/* showcase */
+#showcase {
+    min-height: 710px;
+    background:url(../img/cover_rolls.jpg) no-repeat center 60px fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Parisienne', cursive;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 90px;
+}
+
+/*Column with heading on the home page*/
+.col-home {
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+
+
+/* Menu boxes*/
+#boxes {
+    width: 100%;
+    height:1500px;
+    position: relative;
+    top: 120px;
+    background: url(../img/b2.png);
+    background-size: cover;
+    background-position: center center;
+}
+#boxes .box {
+    text-align: center;
+    float: left;
+    width: 20%;
+    padding: 20px;
+    margin: 4.8%;
+    background-color: #fff;
+}
+#boxes .box:hover {
+    box-shadow: 9px 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#boxes .box img {
+    width: 90%;
+}
+
+/* For description pages */
+
+#detail-box {
+    width: 100%;
+    height:1100px;
+    position: relative;
+    background: url(../img/b2.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+#detail-box .box-detail {
+    top:110px;
+    position: relative;
+    float: left;
+    width: 70%;
+}
+
+#detail-box .box-detail img {
+    position: absolute;
+    top:30px;
+    left:40px;
+    width: 30%;
+    background-color: #fff
+}
+
+#detail-box .description {
+    float: right;
+    width: 60%;
+}
+
+.description-title {
+    text-align: left;
+    color: black;
+    font-family: 'Parisienne', cursive;
+    font-size: 25px;
+}
+
+.container{
+    top:150px;
+    position: relative;
+}
+
+
+#rollName {
+    text-align: left;
+    color: black;
+    font-family: 'Helvetica';
+    color: rgb(109, 110, 164);
+    font-size: 30px;
+}
+
+#rollPrice{
+    font-family: 'Helvetica';
+    font-size: 20px;
+    color: rgb(109, 110, 164);
+}
+
+.description h2 {
+    font-size: 30px;
+    color: darkred;
+}
+
+.custom {
+     color: rgb(109, 110, 164);
+    background-color: white;
+    width:112px;
+    border: 2px solid rgb(109, 110, 164);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 24px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.custom2 {
+    color: rgb(109, 110, 164);
+    background-color: white;
+    width:250px;
+    border: 2px solid rgb(109, 110, 164);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 24px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.custom:hover {
+    box-shadow: 9px 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*go back button on description page*/
+.back-button {
+    color: brown;
+    background-color:floralwhite;
+    border: 2px solid brown;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 24px;
+    margin-right: 20px;
+}
+
+.back-button:hover {
+    box-shadow: 9px 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+/* FOR ABOUT PAGE */
+
+/* introduction to the BunBun Bake Shop */
+
+.title-about{
+    width: 100%;
+    height:1200px;
+    position: relative;
+    background: url(../img/b3.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.title-text{
+    color: rgb(109, 110, 164);
+    top: 200px;
+    width: 60%;
+    padding-left: 50px;
+    position: relative;
+}
+
+/* image for the customer */
+
+.about-image{
+    top:300px;
+    position: relative;
+}
+
+/* FOR CONFIRM PAGE */
+
+.title-about2{
+    width: 100%;
+    height:1000px;
+    position: relative;
+    background: url(../img/b3.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.confirm{
+color: rgb(109, 110, 164);
+    top: 300px;
+    width: 60%;
+    padding-left: 40%;
+    position: relative;
+}
+
+.button-confirm{
+    display: inline-block;
+    position:absolute;
+    top: 70%;
+    left: 47%;
+    background: linear-gradient(#87adfd, #ff77cd);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+
+}
